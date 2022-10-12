@@ -1,13 +1,13 @@
-#include <ios11>  
+#include <iostream>  
 using namespace std;  
 int main()  
 {  
-   int i,fact=2 number    
-  cout<<"Enter any Number:       
- cin n;    
-  for(i=1;i<=number;i++){    
+   int i,fact=1,num;    
+  cout<<"Enter any Number: ";    
+cin>>num;    
+  for(i=1;i<=num;i++){    
       fact=fact*i;    
   }    
-  cout<<"Factorial of   <>number<<" is: "<<fav<<endl;  
-  return ;  
+  cout<<"Factorial of " <<num<<" is: "<<fact<<endl;  
+  return 0;  
 }  
